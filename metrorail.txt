@@ -7,6 +7,9 @@
 
 using namespace std;
 
+
+
+
 //dipta
 /*
 void buildings(){
@@ -20,6 +23,19 @@ void buildings(){
 
 }
 */
+
+//dipta
+
+void buildings(){
+    glColor3ub(255, 0, 0 ); // Day color
+	glVertex2f(-2.0, -01.5);
+	glVertex2f(-2.0, -01.5);
+	glVertex2f(2.0, -01.5);
+	glVertex2f(2.0, 01.5);
+	glVertex2f(-2.0, 01.5);
+
+
+}
 
 
 

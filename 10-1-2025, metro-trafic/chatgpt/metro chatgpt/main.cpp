@@ -19,16 +19,17 @@ void drawCabinTopView(float offset) {
         glVertex2f(-0.3f, 0.1f);
     glEnd();
 
-    // Windows
-    glColor3f(0.1f, 0.6f, 0.9f); // Blue for windows
-    for (float i = -0.24f; i <= 0.24f; i += 0.12f) {
-        glBegin(GL_QUADS);
-            glVertex2f(i - 0.04f, 0.04f);
-            glVertex2f(i + 0.04f, 0.04f);
-            glVertex2f(i + 0.04f, -0.04f);
-            glVertex2f(i - 0.04f, -0.04f);
-        glEnd();
-    }
+
+    // // Windows
+    // glColor3f(0.1f, 0.6f, 0.9f); // Blue for windows
+    // for (float i = -0.24f; i <= 0.24f; i += 0.12f) {
+    //     glBegin(GL_QUADS);
+    //         glVertex2f(i - 0.04f, 0.04f);
+    //         glVertex2f(i + 0.04f, 0.04f);
+    //         glVertex2f(i + 0.04f, -0.04f);
+    //         glVertex2f(i - 0.04f, -0.04f);
+    //     glEnd();
+    // }
 
     // Wheels
     glColor3f(0.2f, 0.2f, 0.2f); // Dark grey for wheels
